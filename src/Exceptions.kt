@@ -1,4 +1,4 @@
-//fun main(){
+//fun KotlinForAndroid.main(){
 //    val exception: Int= 1/0
 //    println(exception)
 //}
@@ -21,7 +21,7 @@
 //    }
 //}
 //
-//fun main() {
+//fun KotlinForAndroid.main() {
 //
 //    val num="1_00_00_00_00_00_00_001"
 //    ExceptionWorker(num)
@@ -31,7 +31,7 @@
 
 
 
-//fun main(args: Array<String>) {
+//fun KotlinForAndroid.main(args: Array<String>) {
 //    test("abcd")
 //    println("executes after the validation")
 //}
@@ -43,7 +43,7 @@
 //}
 
 
-//fun main(){
+//fun KotlinForAndroid.main(){
 //
 //    try{
 //        return
@@ -58,7 +58,7 @@
 //}
 
 
-//fun main(args: Array<String>) {
+//fun KotlinForAndroid.main(args: Array<String>) {
 //    try{
 //        val a = IntArray(5)
 //        a[10] = 99
@@ -80,7 +80,7 @@
 //}
 
 
-//fun main(args : Array<String>){
+//fun KotlinForAndroid.main(args : Array<String>){
 //    try{
 //        var ar = arrayOf(1,2,3,4,5)
 //        var int = ar[6]
@@ -93,7 +93,7 @@
 
 
 
-//fun main (args: Array<String>){
+//fun KotlinForAndroid.main (args: Array<String>){
 //    try {
 //        var int = 10 / 0
 //        println(int)

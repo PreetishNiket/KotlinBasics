@@ -1,6 +1,6 @@
 //import java.util.*
 //
-//fun main(arg:Array<String>)
+//fun KotlinForAndroid.main(arg:Array<String>)
 //{
 //    val read=Scanner(System.`in`)
 //    val size=read.nextInt()

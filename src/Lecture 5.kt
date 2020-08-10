@@ -6,7 +6,7 @@
 //}
 //var lambda1 = { println("Lambda expression") }
 //
-//fun main(){
+//fun KotlinForAndroid.main(){
 ////    val result=doSomething(2) { x, y->x.length/y}
 ////    print(result)
 //   // lambda1()
@@ -16,7 +16,7 @@
 //}
 
 
-//fun main(args: Array<String>){
+//fun KotlinForAndroid.main(args: Array<String>){
 //    println("Main function,")
 //    inlinedFunc({ println("Lambda1,")
 //        return
@@ -38,11 +38,11 @@
 //    println("The sum of two numbers is: $result")
 //}
 //
-//fun main(args: Array<String>) {
+//fun KotlinForAndroid.main(args: Array<String>) {
 //    //higherfunc(lambda)
 //}
 
-//fun main() {
+//fun KotlinForAndroid.main() {
 //    val integers = arrayOf(1,-2,3,-4,5,-3,-6,-1)
 //    println(integers.filter {  it > -3 })
 //
@@ -57,7 +57,7 @@
 //    }
 //    return lambda
 //}
-//fun main() {
+//fun KotlinForAndroid.main() {
 //    var mylambda=myFunction()
 //    mylambda()
 //    mylambda()
@@ -68,12 +68,12 @@
 //fun<T> higherFunction(value: T, abc: (value: T) -> Unit) {
 //    println(abc(value))
 //}
-//fun main(){
+//fun KotlinForAndroid.main(){
 //    val printValue : (Any) -> String = {value -> "value:$value"}
 //        higherFunction("123", printValue)
 //}
 
-//fun main(){
+//fun KotlinForAndroid.main(){
 //    var res = 0
 //    val myList = listOf(1,2,3,4,5,6,7,8,9,10)
 //    myList.forEach {
@@ -86,7 +86,7 @@
 
 
 //fun Int.multi() = this * this * this
-//fun main() {
+//fun KotlinForAndroid.main() {
 //    println(2.multi()+2)
 //}
 
@@ -96,7 +96,7 @@
 //fun higherfunc( str : String, myfunc: (String) -> Unit){
 //    myfunc(str)
 //}
-//fun main(args: Array<String>) {
+//fun KotlinForAndroid.main(args: Array<String>) {
 //
 //    higherfunc("Anyone can be a coding ninja!",::printMe)
 //}
@@ -106,7 +106,7 @@
 //inline fun performOp(number:Int,fn:(Int)-> Unit ){
 //    fn(number)
 //}
-//fun main() {
+//fun KotlinForAndroid.main() {
 //    val number: Int = 255
 //    val string:String= "Value"
 //    performOp(number){
@@ -122,7 +122,7 @@
 //fun doOp(fn:(Int)-> String){
 //    fn(2)
 //}
-//fun main() {
+//fun KotlinForAndroid.main() {
 //    performOp(3) {println("New Number")}
 //}
 
@@ -133,7 +133,7 @@
 //    func(arg)
 //}
 //
-//fun main(arg: Array<String>) {
+//fun KotlinForAndroid.main(arg: Array<String>) {
 // crossInlineTest("Hello") {
 //       println(it)
 //       return
@@ -141,7 +141,7 @@
 //    println("Main finished")
 //}
 
-//fun main(args: Array<String>){
+//fun KotlinForAndroid.main(args: Array<String>){
 //    println("Main function starts,")
 //    inlinedFunc({ print("Lambda expression 1,")
 //        return

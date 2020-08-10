@@ -1,4 +1,4 @@
-//fun main()
+//fun KotlinForAndroid.main()
 //{
 //   // val number1:String?= null
 //    //println(number1!!.length?:0)
@@ -17,7 +17,7 @@
 //fun addNumber(x: Int, y: Int)=x*y
 //
 //fun conCater(substring: String)="The Result is"
-//fun main(){
+//fun KotlinForAndroid.main(){
 //    val x:Int=8
 //    returntype(x)
 //}

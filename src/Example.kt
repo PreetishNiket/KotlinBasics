@@ -37,3 +37,20 @@ fun main(args: Array<String>) {
     val roll = 25
     student(standard=standard)
 }
+
+
+
+//////////////-Yash/////
+fun main() {
+
+    RoutineChecker(object:Routine(){
+        override fun sleep(){
+
+            println("CODE REPEAT")
+        }
+    })
+}
+fun RoutineChecker(routine:Routine)
+{
+    routine.sleep()
+}
